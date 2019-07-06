@@ -1,5 +1,5 @@
-FROM nginx:1.14.1
-LABEL maintainer="Jason Wilder mail@jasonwilder.com"
+FROM nginx:1.17.1
+LABEL maintainer="Mario MOnroy soporte@culturaenlinea.net"
 
 # Install wget and install/updates certificates
 RUN apt-get update \
