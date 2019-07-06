@@ -1,5 +1,5 @@
 FROM nginx:1.17.1
-LABEL maintainer="Mario MOnroy soporte@culturaenlinea.net"
+LABEL maintainer="Mario Monroy soporte@culturaenlinea.net"
 
 # Install wget and install/updates certificates
 RUN apt-get update \
