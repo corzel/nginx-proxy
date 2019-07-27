@@ -1,4 +1,4 @@
-FROM nginx:1.17.1
+FROM nginx:latest
 LABEL maintainer="Mario Monroy soporte@culturaenlinea.net"
 
 # Install wget and install/updates certificates
